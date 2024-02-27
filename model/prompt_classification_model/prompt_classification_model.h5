@@ -1,0 +1,67 @@
+import pandas as pd
+import numpy as np
+import json
+from tensorflow.keras.preprocessing.text import Tokenizer, pad_sequences
+from tensorflow.keras.models import load_model
+import ebooklib
+from ebooklib import epub
+from bs4 import BeautifulSoup
+import fitz  # PyMuPDF for PDF processing
+
+# Load the trained model and tokenizer outside the function for efficiency
+model = load_model('Terminal-cancer/model/command_model.keras')
+with open('Terminal-Cancer/model/tokenizer.json') as f:
+    tokenizer_data = json.load(f)
+tokenizer = Tokenizer.from_json(tokenizer_data)
+
+# Function to read text from PDF files
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    with fitz.open(pdf_path) as doc:
+        for page in doc:
+            text += page.get_text()
+    return text
+
+# Function to read text from EPUB files
+def extract_text_from_epub(epub_path):
+    text = ''
+    book = epub.read_epub(epub_path)
+    for item in book.get_items():
+        if item.get_type() == ebooklib.ITEM_DOCUMENT:
+            soup = BeautifulSoup(item.get_content(), features="html.parser")
+            text += soup.get_text() + '\n'
+    return text
+
+# Function to preprocess text for model prediction
+def preprocess_text_for_model(text):
+    sequences = tokenizer.texts_to_sequences([text])
+    padded = pad_sequences(sequences, maxlen=100, padding='post')
+    return padded
+
+# Function to process the model's prediction
+def process_prediction(prediction):
+    class_indices = {0: 'list_directory', 1: 'show_current_directory', 2: 'create_file'}
+    predicted_class_index = np.argmax(prediction)
+    predicted_command = class_indices[predicted_class_index]
+    return predicted_command
+
+# Example usage of the model with PDF/EPUB content
+def make_prediction_from_file(file_path, file_type):
+    if file_type == 'pdf':
+        extracted_text = extract_text_from_pdf(file_path)
+    elif file_type == 'epub':
+        extracted_text = extract_text_from_epub(file_path)
+    else:
+        print("Unsupported file type")
+        return
+
+    preprocessed_text = preprocess_text_for_model(extracted_text)
+    prediction = model.predict(preprocessed_text)
+    predicted_command = process_prediction(prediction[0])
+    
+    print(f"Predicted command: {predicted_command}")
+    # Here, you would add logic to safely execute the predicted_command or further process it
+
+# Example function calls
+# make_prediction_from_file('path/to/your/file.pdf', 'pdf')
+# make_prediction_from_file('path/to/your/file.epub', 'epub')

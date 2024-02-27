@@ -1,0 +1,20 @@
+2024-02-26 16:02:36,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 16:02:36,941 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 16:02:36,942 - INFO -  * Restarting with stat
+2024-02-26 16:02:37,105 - WARNING -  * Debugger is active!
+2024-02-26 16:02:37,114 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 16:02:54,712 - WARNING - Attempted disallowed operation: list_directory
+2024-02-26 16:02:54,717 - INFO - 127.0.0.1 - - [26/Feb/2024 16:02:54] "POST /execute HTTP/1.1" 200 -
+2024-02-26 16:03:09,222 - WARNING - Attempted disallowed operation: list_directory
+2024-02-26 16:03:09,223 - INFO - 127.0.0.1 - - [26/Feb/2024 16:03:09] "POST /execute HTTP/1.1" 200 -
+2024-02-26 16:04:15,426 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 16:04:15,426 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 16:04:15,427 - INFO -  * Restarting with stat
+2024-02-26 16:04:15,618 - WARNING -  * Debugger is active!
+2024-02-26 16:04:15,627 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 16:04:20,567 - WARNING - Attempted disallowed operation: list_directory
+2024-02-26 16:04:20,571 - INFO - 127.0.0.1 - - [26/Feb/2024 16:04:20] "POST /execute HTTP/1.1" 200 -
+2024-02-26 16:04:22,765 - WARNING - Attempted disallowed operation: list_directory
+2024-02-26 16:04:22,766 - INFO - 127.0.0.1 - - [26/Feb/2024 16:04:22] "POST /execute HTTP/1.1" 200 -

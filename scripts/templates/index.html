@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terminal Cancer Command Execution</title>
+</head>
+<body>
+    <h1>Enter Command</h1>
+    <form action="/execute" method="post">
+        <input type="text" name="command" placeholder="Enter your command here">
+        <button type="submit">Execute</button>
+    </form>
+    {% if response %}
+        <p>Response: {{ response }}</p>
+    {% endif %}
+</body>
+</html>

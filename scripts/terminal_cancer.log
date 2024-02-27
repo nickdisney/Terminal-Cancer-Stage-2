@@ -1,0 +1,156 @@
+2024-02-26 15:24:51,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 15:24:51,506 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 15:24:51,507 - INFO -  * Restarting with stat
+2024-02-26 15:24:51,692 - WARNING -  * Debugger is active!
+2024-02-26 15:24:51,704 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 15:25:27,048 - INFO - 127.0.0.1 - - [26/Feb/2024 15:25:27] "POST /execute HTTP/1.1" 200 -
+2024-02-26 15:27:13,221 - INFO - 127.0.0.1 - - [26/Feb/2024 15:27:13] "POST /execute HTTP/1.1" 200 -
+2024-02-26 15:41:32,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 15:41:32,147 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 15:41:32,148 - INFO -  * Restarting with stat
+2024-02-26 15:41:32,333 - WARNING -  * Debugger is active!
+2024-02-26 15:41:32,343 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 15:42:17,669 - INFO - 127.0.0.1 - - [26/Feb/2024 15:42:17] "[31m[1mGET /execute HTTP/1.1[0m" 405 -
+2024-02-26 15:42:26,822 - INFO - 127.0.0.1 - - [26/Feb/2024 15:42:26] "GET / HTTP/1.1" 200 -
+2024-02-26 15:42:35,551 - INFO - 127.0.0.1 - - [26/Feb/2024 15:42:35] "GET / HTTP/1.1" 200 -
+2024-02-26 16:00:33,322 - INFO -  * Detected change in '/Users/nick/Desktop/aimee/aimaze/dolphinkiller/Terminal-Cancer/scripts/command_interpreter.py', reloading
+2024-02-26 16:00:33,361 - INFO -  * Restarting with stat
+2024-02-26 16:00:33,663 - WARNING -  * Debugger is active!
+2024-02-26 16:00:33,671 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 16:04:38,314 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 16:04:38,314 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 16:04:38,315 - INFO -  * Restarting with stat
+2024-02-26 16:04:38,511 - WARNING -  * Debugger is active!
+2024-02-26 16:04:38,520 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 16:12:31,580 - INFO -  * Detected change in '/Users/nick/Desktop/aimee/aimaze/dolphinkiller/Terminal-Cancer/scripts/model_training.py', reloading
+2024-02-26 16:12:31,624 - INFO -  * Restarting with stat
+2024-02-26 16:12:31,873 - WARNING -  * Debugger is active!
+2024-02-26 16:12:31,882 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 16:39:29,826 - INFO - 127.0.0.1 - - [26/Feb/2024 16:39:29] "GET / HTTP/1.1" 200 -
+2024-02-26 16:39:29,953 - INFO - 127.0.0.1 - - [26/Feb/2024 16:39:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-26 17:01:20,321 - INFO - 127.0.0.1 - - [26/Feb/2024 17:01:20] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:01:31,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:01:31,663 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:01:31,664 - INFO -  * Restarting with stat
+2024-02-26 17:01:31,851 - WARNING -  * Debugger is active!
+2024-02-26 17:01:31,860 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:01:40,208 - INFO - 127.0.0.1 - - [26/Feb/2024 17:01:40] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:01:55,870 - INFO - 127.0.0.1 - - [26/Feb/2024 17:01:55] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:01:59,595 - INFO - 127.0.0.1 - - [26/Feb/2024 17:01:59] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:02:02,612 - INFO - 127.0.0.1 - - [26/Feb/2024 17:02:02] "GET / HTTP/1.1" 200 -
+2024-02-26 17:02:07,034 - INFO - 127.0.0.1 - - [26/Feb/2024 17:02:07] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:03:02,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:03:02,229 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:03:02,230 - INFO -  * Restarting with stat
+2024-02-26 17:03:02,404 - WARNING -  * Debugger is active!
+2024-02-26 17:03:02,409 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:03:06,497 - INFO - 127.0.0.1 - - [26/Feb/2024 17:03:06] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 17:03:06,553 - INFO - 127.0.0.1 - - [26/Feb/2024 17:03:06] "GET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-02-26 17:03:06,554 - INFO - 127.0.0.1 - - [26/Feb/2024 17:03:06] "GET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-02-26 17:03:06,598 - INFO - 127.0.0.1 - - [26/Feb/2024 17:03:06] "GET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-02-26 17:04:44,942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:04:44,942 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:04:44,943 - INFO -  * Restarting with stat
+2024-02-26 17:04:45,129 - WARNING -  * Debugger is active!
+2024-02-26 17:04:45,138 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:05:05,967 - INFO - 127.0.0.1 - - [26/Feb/2024 17:05:05] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:05:24,554 - INFO - 127.0.0.1 - - [26/Feb/2024 17:05:24] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:05:45,742 - INFO - 127.0.0.1 - - [26/Feb/2024 17:05:45] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:13:41,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:13:41,725 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:13:41,726 - INFO -  * Restarting with stat
+2024-02-26 17:13:41,936 - WARNING -  * Debugger is active!
+2024-02-26 17:13:41,945 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:13:57,188 - INFO - 127.0.0.1 - - [26/Feb/2024 17:13:57] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:13:59,696 - INFO - 127.0.0.1 - - [26/Feb/2024 17:13:59] "POST /execute HTTP/1.1" 200 -
+2024-02-26 17:29:46,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:29:46,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:29:46,452 - INFO -  * Restarting with stat
+2024-02-26 17:29:46,656 - WARNING -  * Debugger is active!
+2024-02-26 17:29:46,664 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:31:02,929 - INFO -  * Detected change in '/Users/nick/Desktop/aimee/aimaze/dolphinkiller/Terminal-Cancer/scripts/terminalcancer.py', reloading
+2024-02-26 17:31:02,959 - INFO -  * Restarting with stat
+2024-02-26 17:34:52,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:34:52,837 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:34:52,838 - INFO -  * Restarting with stat
+2024-02-26 17:34:53,008 - WARNING -  * Debugger is active!
+2024-02-26 17:34:53,016 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:35:15,048 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:35:15,048 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:35:15,049 - INFO -  * Restarting with stat
+2024-02-26 17:35:15,269 - WARNING -  * Debugger is active!
+2024-02-26 17:35:15,277 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:39:45,527 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 17:39:45,527 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 17:39:45,528 - INFO -  * Restarting with stat
+2024-02-26 17:39:45,715 - WARNING -  * Debugger is active!
+2024-02-26 17:39:45,722 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 17:39:50,784 - INFO - 127.0.0.1 - - [26/Feb/2024 17:39:50] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 17:39:50,834 - INFO - 127.0.0.1 - - [26/Feb/2024 17:39:50] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 17:39:50,838 - INFO - 127.0.0.1 - - [26/Feb/2024 17:39:50] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 17:39:50,895 - INFO - 127.0.0.1 - - [26/Feb/2024 17:39:50] "GET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-02-26 17:39:56,029 - INFO - 127.0.0.1 - - [26/Feb/2024 17:39:56] "GET / HTTP/1.1" 200 -
+2024-02-26 17:40:01,644 - INFO - 127.0.0.1 - - [26/Feb/2024 17:40:01] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 17:40:01,682 - INFO - 127.0.0.1 - - [26/Feb/2024 17:40:01] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 17:40:01,684 - INFO - 127.0.0.1 - - [26/Feb/2024 17:40:01] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 17:40:01,754 - INFO - 127.0.0.1 - - [26/Feb/2024 17:40:01] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-26 17:41:33,520 - INFO - 127.0.0.1 - - [26/Feb/2024 17:41:33] "GET / HTTP/1.1" 200 -
+2024-02-26 17:41:37,176 - INFO - 127.0.0.1 - - [26/Feb/2024 17:41:37] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 17:41:37,232 - INFO - 127.0.0.1 - - [26/Feb/2024 17:41:37] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 17:41:37,233 - INFO - 127.0.0.1 - - [26/Feb/2024 17:41:37] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 17:41:37,287 - INFO - 127.0.0.1 - - [26/Feb/2024 17:41:37] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-26 18:35:55,846 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 18:35:55,846 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 18:35:55,847 - INFO -  * Restarting with stat
+2024-02-26 18:35:56,041 - WARNING -  * Debugger is active!
+2024-02-26 18:35:56,051 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 18:36:08,563 - INFO - 127.0.0.1 - - [26/Feb/2024 18:36:08] "GET / HTTP/1.1" 200 -
+2024-02-26 18:36:18,488 - INFO - 127.0.0.1 - - [26/Feb/2024 18:36:18] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 18:36:18,549 - INFO - 127.0.0.1 - - [26/Feb/2024 18:36:18] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 18:36:18,549 - INFO - 127.0.0.1 - - [26/Feb/2024 18:36:18] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 18:36:18,604 - INFO - 127.0.0.1 - - [26/Feb/2024 18:36:18] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-26 18:39:23,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 18:39:23,952 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 18:39:23,953 - INFO -  * Restarting with stat
+2024-02-26 18:39:24,113 - WARNING -  * Debugger is active!
+2024-02-26 18:39:24,122 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 18:39:40,080 - INFO - 127.0.0.1 - - [26/Feb/2024 18:39:40] "GET / HTTP/1.1" 200 -
+2024-02-26 18:39:51,802 - INFO - 127.0.0.1 - - [26/Feb/2024 18:39:51] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 18:39:51,856 - INFO - 127.0.0.1 - - [26/Feb/2024 18:39:51] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 18:39:51,857 - INFO - 127.0.0.1 - - [26/Feb/2024 18:39:51] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 18:39:51,918 - INFO - 127.0.0.1 - - [26/Feb/2024 18:39:51] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-26 18:42:08,270 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 18:42:08,270 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 18:42:08,271 - INFO -  * Restarting with stat
+2024-02-26 18:42:08,476 - WARNING -  * Debugger is active!
+2024-02-26 18:42:08,485 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 18:43:58,287 - INFO - 127.0.0.1 - - [26/Feb/2024 18:43:58] "GET / HTTP/1.1" 200 -
+2024-02-26 18:44:02,382 - INFO - 127.0.0.1 - - [26/Feb/2024 18:44:02] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 18:44:02,440 - INFO - 127.0.0.1 - - [26/Feb/2024 18:44:02] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 18:44:02,440 - INFO - 127.0.0.1 - - [26/Feb/2024 18:44:02] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 18:44:02,567 - INFO - 127.0.0.1 - - [26/Feb/2024 18:44:02] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-26 19:17:00,885 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-26 19:17:00,886 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-26 19:17:00,886 - INFO -  * Restarting with stat
+2024-02-26 19:17:01,108 - WARNING -  * Debugger is active!
+2024-02-26 19:17:01,120 - INFO -  * Debugger PIN: 134-634-456
+2024-02-26 19:18:36,699 - INFO - 127.0.0.1 - - [26/Feb/2024 19:18:36] "GET / HTTP/1.1" 200 -
+2024-02-26 19:18:41,382 - INFO - 127.0.0.1 - - [26/Feb/2024 19:18:41] "[35m[1mPOST /execute HTTP/1.1[0m" 500 -
+2024-02-26 19:18:41,442 - INFO - 127.0.0.1 - - [26/Feb/2024 19:18:41] "[36mGET /execute?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-26 19:18:41,442 - INFO - 127.0.0.1 - - [26/Feb/2024 19:18:41] "[36mGET /execute?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-26 19:18:41,506 - INFO - 127.0.0.1 - - [26/Feb/2024 19:18:41] "[36mGET /execute?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

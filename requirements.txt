@@ -1,0 +1,10 @@
+tensorflow>=2.6
+pandas
+numpy
+scikit-learn
+openai
+PyMuPDF  # For reading PDF files, if needed in your data processing script
+EbookLib
+beautifulsoup4
+Fitz
+Flask>=1.1.2

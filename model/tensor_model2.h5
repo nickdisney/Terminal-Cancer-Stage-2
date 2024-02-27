@@ -1,0 +1,66 @@
+import pandas as pd
+import numpy as np
+from tensorflow.keras.preprocessing.text import Tokenizer, pad_sequences
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Embedding, GlobalAveragePooling1D, Dense
+from tensorflow.keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+import ebooklib
+from ebooklib import epub
+from bs4 import BeautifulSoup
+import fitz  # PyMuPDF for PDF processing
+
+# Assuming the rest of your script remains the same up to the tokenizer and model saving
+
+# Function to read text from PDF files
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    with fitz.open(pdf_path) as doc:
+        for page in doc:
+            text += page.get_text()
+    return text
+
+# Function to read text from EPUB files
+def extract_text_from_epub(epub_path):
+    book = epub.read_epub(epub_path)
+    text = ''
+    for item in book.get_items():
+        if item.get_type() == ebooklib.ITEM_DOCUMENT:
+            soup = BeautifulSoup(item.get_content(), features="html.parser")
+            text += soup.get_text() + '\n'
+    return text
+
+# Function to preprocess text for model prediction
+def preprocess_text_for_model(text, tokenizer):
+    sequences = tokenizer.texts_to_sequences([text])
+    padded = pad_sequences(sequences, maxlen=100, padding='post')
+    return padded
+
+# Example usage of the model with PDF/EPUB content
+def make_prediction_from_file(file_path, file_type):
+    # Load the trained model and tokenizer
+    model = load_model('prompt_classification_model')
+    with open('tokenizer.json') as f:
+        tokenizer_json = f.read()
+    tokenizer = Tokenizer.from_json(tokenizer_json)
+    
+    # Extract text based on file type
+    if file_type == 'pdf':
+        extracted_text = extract_text_from_pdf(file_path)
+    elif file_type == 'epub':
+        extracted_text = extract_text_from_epub(file_path)
+    else:
+        return "Unsupported file type"
+    
+    # Preprocess the extracted text and make a prediction
+    preprocessed_text = preprocess_text_for_model(extracted_text, tokenizer)
+    prediction = model.predict(preprocessed_text)
+    
+    # Process the prediction as needed
+    # This part depends on what you want to do with the prediction
+    print(prediction)
+
+# Example function calls
+# make_prediction_from_file('path/to/your/file.pdf', 'pdf')
+# make_prediction_from_file('path/to/your/file.epub', 'epub')

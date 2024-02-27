@@ -1,0 +1,3 @@
+tokenizer_json = tokenizer.to_json()
+with open('model/tokenizer.json', 'w') as file:
+    file.write(tokenizer_json)
