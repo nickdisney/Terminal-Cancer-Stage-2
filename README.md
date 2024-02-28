@@ -1,2 +1,2 @@
-# Terminal-Cancer2
+# Terminal-Cancer: Stage 2
 backend AI hacking tool
